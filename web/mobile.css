@@ -1,0 +1,168 @@
+
+.sq
+{
+	background-color: #EFF7FF;
+	border: none;
+	color: #333333;
+	filter: dropshadow(color=#cccccc, offx=2, offy=2);
+	float: left;
+	font-family: monospace;
+	font-size: 90px;
+	font-weight: bold;
+	height: 100px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #cccccc;
+	width: 100px;
+}
+.rX, .rO
+{
+	color: orangered;
+}
+.sq0
+{
+	border-bottom: 1px solid #336699;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-right: 1px solid #336699;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 0px;
+	moz-border-radius-bottomleft: 0px;
+	moz-border-radius-bottomright: 0px;
+	moz-border-radius-topleft: 16px;
+	moz-border-radius-topright: 0px;
+}
+.sq1
+{
+	border-bottom: 1px solid #336699;
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+}
+.sq2
+{
+	border-bottom: 1px solid #336699;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-left: 1px solid #336699;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 16px;
+	moz-border-radius-bottomleft: 0px;
+	moz-border-radius-bottomright: 0px;
+	moz-border-radius-topleft: 0px;
+	moz-border-radius-topright: 16px;
+}
+.sq3
+{
+	border-bottom: 1px solid #336699;
+	border-right: 1px solid #336699;
+	border-top: 1px solid #336699;
+}
+.sq4
+{
+	border-bottom: 1px solid #336699;
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	border-top: 1px solid #336699;
+}
+.sq5
+{
+	border-bottom: 1px solid #336699;
+	border-left: 1px solid #336699;
+	border-top: 1px solid #336699;
+}
+.sq6
+{
+	border-bottom-left-radius: 16px;
+	border-bottom-right-radius: 0px;
+	border-right: 1px solid #336699;
+	border-top: 1px solid #336699;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	moz-border-radius-bottomleft: 16px;
+	moz-border-radius-bottomright: 0px;
+	moz-border-radius-topleft: 0px;
+	moz-border-radius-topright: 0px;
+}
+.sq7
+{
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+	border-top: 1px solid #336699;
+}
+.sq8
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 16px;
+	border-left: 1px solid #336699;
+	border-top: 1px solid #336699;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	moz-border-radius-bottomleft: 0px;
+	moz-border-radius-bottomright: 16px;
+	moz-border-radius-topleft: 0px;
+	moz-border-radius-topright: 0px;
+}
+.empty
+{
+	cursor: pointer;
+}
+.e_hov
+{
+	background-color: #FFEECC !important;
+}
+#gamestatus
+{
+	background-color: #EEEEEE;
+	font-color: #303030;
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	left: 0;
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+	padding-top: 2px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 315px;
+}
+.gameboard
+{
+	background-color: #EEEEEE;
+	border: 5px solid #EEEEEE;
+	height: 305px;
+	left: 0px;
+	position: absolute;
+	top: 20px;
+	width: 305px;
+}
+.loader
+{
+	background-color: #303030;
+	height: 100%;
+	left: 0;
+	opacity: 0.8;
+	padding-top: 50px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.win
+{
+	color: #2E5D5D;
+}
+.lost
+{
+	color: #9B4D4D;
+}
+.draw
+{
+	color: #789048;
+}
+.loader img
+{
+	left: 150px;
+	position: absolute;
+	top: 150px;
+}
